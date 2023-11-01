@@ -90,6 +90,7 @@ nano .zshrc
 
 ```
 eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="$PATH":"$HOME/fvm/default/bin"
 export ANDROID_HOME=$HOME/Library/Android/sdk
