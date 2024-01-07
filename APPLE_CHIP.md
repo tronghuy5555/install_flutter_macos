@@ -129,3 +129,9 @@ flutter doctor --android-licenses
 ```
 ln -s ~/Library/Application\ Support/Google/AndroidStudio4.1/plugins ~/Library/Application\ Support/AndroidStudio4.1
 ```
+
+## Install fastlane
+Follow this Github link to generate fastlane template
+```
+https://github.com/tronghuy5555/generate_mobile_fastlane
+```
