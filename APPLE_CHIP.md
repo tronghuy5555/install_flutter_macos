@@ -135,3 +135,13 @@ Follow this Github link to generate fastlane template
 ```
 https://github.com/tronghuy5555/generate_mobile_fastlane
 ```
+## Install rbenv
+Install rbenv to use `bundle install` to run fastlane with specific version
+```
+brew install rbenv ruby-build
+rbenv init
+echo 'eval "$(~/.rbenv/bin/rbenv init - zsh)"' >> ~/.zshrc
+rbenv install -l
+rbenv install 3.1.2
+rbenv global 3.1.2 
+```
