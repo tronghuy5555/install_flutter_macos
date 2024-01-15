@@ -129,6 +129,14 @@ flutter doctor --android-licenses
 ```
 ln -s ~/Library/Application\ Support/Google/AndroidStudio4.1/plugins ~/Library/Application\ Support/AndroidStudio4.1
 ```
+##### Fix error Cocoapods
+```
+# STEP 1: Install ffi
+sudo arch -x86_64 gem install ffi
+
+# STEP 2: Re-install dependencies
+arch -x86_64 pod install
+```
 
 ## Install fastlane
 Follow this Github link to generate fastlane template
